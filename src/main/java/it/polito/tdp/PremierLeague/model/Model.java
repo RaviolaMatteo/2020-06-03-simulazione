@@ -85,7 +85,7 @@ public class Model {
 			opponents.add(new Opponent(graph.getEdgeTarget(edge), (int) graph.getEdgeWeight(edge)));
 		}
 		Collections.sort(opponents);
-		topPlayer.setOpponents(opponents);
+		topPlayer.setOpponents(opponents); 
 		return topPlayer;
 		
 	}
